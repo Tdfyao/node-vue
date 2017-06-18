@@ -1,7 +1,7 @@
 {
   "apps": [
     {
-      "name": "node-vue-demo",
+      "name": "node",
       "cwd": "/home/dfyao/project/node-vue",
       "script": "server/app.js",
       "exec_mode": "cluster",
