@@ -1,0 +1,23 @@
+{
+  "apps": [
+    {
+      "name": "rms",
+      "cwd": "/home/dengfeng/project/node-vue",
+      "script": "server/app.js",
+      "exec_mode": "cluster",
+      "node_args": "--harmony",
+      "watch": [
+        "server", "config/env"
+      ],
+      "env": {
+        "NODE_ENV": "ydf"
+      },
+      "log_date_format": "YYYY-MM-DD HH:mm Z",
+      "error_file": "/home/dengfeng/project/node-vue/logs/error.log",
+      "out_file": "/home/dengfeng/project/node-vue/logs/out.log",
+      "pid_file": "/home/dengfeng/project/node-vue/logs/pid.log",
+      "max_memory_restart": "400M",
+      "instances": "1"
+    }
+  ]
+}
